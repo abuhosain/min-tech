@@ -1,7 +1,25 @@
 .register{
-    height: 300px;
+    height: 400px;
 }
 
 footer{
     height: 400px;
+}
+
+@media screen and (max-width:576px) {
+    
+    .register{
+        height: 300px;
+    }
+
+    .ready{
+        font-size: 30px;
+        width: 500px;
+        padding-right: 300px;
+    }
+    .ready-p{
+        font-size: 10px;
+        width: 300px;
+        padding-right: 200px;
+    }
 }
