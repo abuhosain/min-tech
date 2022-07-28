@@ -35,3 +35,23 @@ footer {
 }
 
 
+@media screen and (min-width:768px) and (max-width:991px) {
+    .explore-info{
+        width: 100%;
+    }
+
+    .explore-info h1{
+        font-size: 20px;
+        margin-top: 2px !important;
+    }
+    .explore-info p{
+        font-size: 12px;
+        padding-top: 3px !important;
+    }
+    .online-course{
+        margin-top: 0px !important;
+    }
+    .course-btn{
+        margin-top: 0px !important;
+    }
+}
